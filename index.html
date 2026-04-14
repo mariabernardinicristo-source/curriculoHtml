@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        header {
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            border-radius: 10px 10px 0 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 18px;
+        }
+
+        section {
+            margin-top: 20px;
+        }
+
+        h2 {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .content {
+            padding: 10px 20px;
+        }
+
+        .content p, .content li {
+            margin: 5px 0;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul li::before {
+            content: "•";
+            color: #4CAF50;
+            display: inline-block; 
+            width: 1em;
+            margin-left: -1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>João da Silva</h1>
+            <p>Desenvolvedor Web | joao@email.com | (11) 99999-9999</p>
+        </header>
+
+        <section>
+            <h2>Resumo Profissional</h2>
+            <div class="content">
+                <p>Desenvolvedor web com 5 anos de experiência em front-end e back-end. Apaixonado por criar soluções eficientes e interfaces modernas.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Experiência Profissional</h2>
+            <div class="content">
+                <ul>
+                    <li><strong>Desenvolvedor Front-end - Empresa XYZ (2021 - Atual)</strong>: Criação de sites responsivos e aplicações web.</li>
+                    <li><strong>Desenvolvedor Full Stack - Empresa ABC (2018 - 2021)</strong>: Desenvolvimento de sistemas completos usando JavaScript, Node.js e React.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Formação</h2>
+            <div class="content">
+                <ul>
+                    <li><strong>Graduação em Ciência da Computação</strong> - Universidade Federal (2014 - 2018)</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Habilidades</h2>
+            <div class="content">
+                <ul>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>React, Node.js, Express</li>
+                    <li>Banco de Dados MySQL e MongoDB</li>
+                    <li>Design Responsivo e UI/UX</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Idiomas</h2>
+            <div class="content">
+                <ul>
+                    <li>Português: Nativo</li>
+                    <li>Inglês: Avançado</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
